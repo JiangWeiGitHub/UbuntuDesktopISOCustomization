@@ -118,11 +118,11 @@
   - Choose customization action (choose `Run Console Application`)<p>
   - A new terminal window would pop up, this is the best part!<p>
   - Download deployment script from github, and run<p>
-    ```
-      wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/ovf/Ubuntu-16.04.1-server-64bit/install-appifi.sh
-      chmod 755 install-appifi.sh
-      ./install-appifi.sh
-    ```
+      ```
+        wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/ovf/Ubuntu-16.04.1-server-64bit/install-appifi.sh
+        chmod 755 install-appifi.sh
+        ./install-appifi.sh
+      ```
   - Choose customization action (choose `Continue building`)<p>
   - Copy new ISO to Windows 7<p>
   - Done<p>

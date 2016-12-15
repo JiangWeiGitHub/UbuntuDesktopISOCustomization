@@ -5,12 +5,12 @@
 [**Question**](https://answers.launchpad.net/uck/+question/293948)
 
 ### Prerequisite
-+ Host Machine: Windows 7 Ultimate 64bit
-+ Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro
-+ ingredient: ubuntu-16.04.1-desktop-amd64.iso file
++ Host Machine: Windows 7 Ultimate 64bit<p>
++ Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro<p>
++ ingredient: ubuntu-16.04.1-desktop-amd64.iso<p>
 
 ### Goal
-+ DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso
+  DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
 
 ### Procedure
 1. update & upgrade apt source list<p>
@@ -18,12 +18,13 @@
     sudo apt update
     sudo apt upgrade
   ```
+  
 2. install `Ubuntu Customization Kit` & dependency packages<p>
-`sudo apt install uck syslinux-utils squashfs-tools dctrl-tools`
+`sudo apt install uck syslinux-utils squashfs-tools dctrl-tools`<p>
 
-3. modify some configure files
-  + `/usr/lib/uck/customization-profiles/localized_cd/customize_iso`
-  + `/usr/lib/uck/customization-profiles/localized_cd/customize`
+3. modify some configure files<p>
+  + `/usr/lib/uck/customization-profiles/localized_cd/customize_iso`<p>
+  + `/usr/lib/uck/customization-profiles/localized_cd/customize`<p>
 
   ```
     ##### /usr/lib/uck/customization-profiles/localized_cd/customize_iso #####
@@ -104,3 +105,14 @@
       fi
     }
   ```
+
+4. run uck<p>
+  - `uck-gui`<p>
+  - Choose the language pack to install (choose `en`)<p>
+  - Choose the language for live CD boot up (choose `en`)<p>
+  - Select the ISO image file (ubuntu-16.04.1-desktop-amd64.iso)<p>
+  - Customize the ISO image before building a new ISO (choose `yes`)<p>
+  - Enter a name for the DIY ISO image<p>
+  - Choose the desktop environment (choose `gnome`)<p>
+  - Build proceeds asks for confirmation (choose 'yes')<p>
+  - 

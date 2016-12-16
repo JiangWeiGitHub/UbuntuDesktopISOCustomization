@@ -112,16 +112,16 @@
   - Open terminal, input `uck-gui` & run<p>
   - Choose the language pack to install (choose `en`)<p>
   - Choose the language for live CD boot up (choose `en`)<p>
-  - Select the ISO image file (choose ubuntu-16.04.1-desktop-amd64.iso)<p>
+  - Select the ISO image file (choose `ubuntu-16.04.1-desktop-amd64.iso`)<p>
   - Customize the ISO image before building a new ISO (choose `yes`)<p>
   - Enter a name for the DIY ISO image<p>
   - Choose the desktop environment (choose `gnome`)<p>
   - Build proceeds asks for confirmation (choose `yes`)<p>
   - Choose customization action (choose `Run Console Application`)<p>
-  - A new terminal window would pop up, this is the `best part`!<p>
+  - A new terminal window would pop up, this is `the best part`!<p>
   - Download deployment script from github, and run<p>
   ```
-    ### It will install some packages & configure some files which start up at boot ###
+    ### It will install some packages & configure some files which start up at boot ###
     wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/ovf/Ubuntu-16.04.1-server-64bit/install-appifi.sh
     chmod 755 install-appifi.sh
     ./install-appifi.sh

@@ -122,6 +122,7 @@
   - Download deployment script from github, and run<p>
   ```
     ### It will install some packages & configure some files which start up at boot ###
+    
     wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/ovf/Ubuntu-16.04.1-server-64bit/install-appifi.sh
     chmod 755 install-appifi.sh
     ./install-appifi.sh

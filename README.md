@@ -127,6 +127,7 @@
 
     # Method 2: ( using local nodejs & docker binary libs )
     wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-1-amd64/install-appifi.sh
+
     chmod 755 install-appifi.sh
     ./install-appifi.sh
   ```

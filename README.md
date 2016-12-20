@@ -122,8 +122,11 @@
   - Download deployment script from github, and run<p>
   ```
     ### It will install some packages & configure some files which start up at boot ###
-    
+    # Method 1 ( download nodejs & docker binary libs ):
     wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/ovf/ubuntu-16.04.1-server-amd64/install-appifi.sh
+
+    # Method 2: ( using local nodejs & docker binary libs )
+    wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-1-amd64/install-appifi.sh
     chmod 755 install-appifi.sh
     ./install-appifi.sh
   ```

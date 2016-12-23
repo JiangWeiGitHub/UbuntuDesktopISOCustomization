@@ -2,4 +2,4 @@
 
 `uck` folder: use uck tool
 
-`shell` folder: user shell script
+`shell` folder: use shell script

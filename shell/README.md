@@ -17,12 +17,15 @@
   DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
 
 ### Procedure
+
 1. Enter into `~` folder
+
   `cd ~`
 
 2. Copy `appifi-bootstrap.js.sha1`, `appifi-bootstrap-update.packed.js`, `node-v6.9.2-linux-x64.tar.xz`, `docker-1.12.4.tgz` & `makeUbuntuWisnucISO.sh` into this folder
 
 3. Run `makeUbuntuWisnucISO.sh`
+
   ```
     chmod 755 makeUbuntuWisnucISO.sh
     ./makeUbuntuWisnucISO.sh

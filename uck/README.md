@@ -55,8 +55,7 @@
 
 I just use `uck` to modify iso's rootfs (casper/filesystem.squashfs), and that's not enough!
 
-A lot of files will affect my work, just like `casper/filesystem.manifest-remove`, [`shell`](https://github.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/tree/master/shell) method is better.
-
+A lot of files will affect my work, just like `casper/filesystem.manifest-remove` (it will removes my packages), [`shell`](https://github.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/tree/master/shell) method is better.
 
 ### Procedure
 1. update & upgrade apt source list<p>

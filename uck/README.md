@@ -6,13 +6,23 @@
 
 [**Question**](https://answers.launchpad.net/uck/+question/293948)
 
+### Prerequisite
++ Host Machine: Windows 7 Ultimate 64bit<p>
++ Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro<p>
++ ingredient: ubuntu-16.04.1-desktop-amd64.iso<p>
+
+### Goal
+  DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
+
 ### Notice
 ```
+  ubuntu-16.04.1-desktop-amd64.iso
   ├── boot
   │   └── grub
   ├── casper
   │   ├── filesystem.manifest
   │   ├── filesystem.manifest-desktop
+  │   ├── filesystem.manifest-remove
   │   ├── filesystem.size
   │   ├── filesystem.squashfs
   │   ├── filesystem.squashfs.gpg
@@ -45,13 +55,8 @@
 
 I just use `uck` to modify iso's rootfs (casper/filesystem.squashfs), and that's not enough!
 
-### Prerequisite
-+ Host Machine: Windows 7 Ultimate 64bit<p>
-+ Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro<p>
-+ ingredient: ubuntu-16.04.1-desktop-amd64.iso<p>
+A lot of files will affect my work, just like `casper/filesystem.manifest-remove`, [`shell`](https://github.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/tree/master/shell) method is better.
 
-### Goal
-  DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
 
 ### Procedure
 1. update & upgrade apt source list<p>

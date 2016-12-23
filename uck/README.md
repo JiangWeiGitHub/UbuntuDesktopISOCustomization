@@ -6,6 +6,45 @@
 
 [**Question**](https://answers.launchpad.net/uck/+question/293948)
 
+### Notice
+```
+  ├── boot
+  │   └── grub
+  ├── casper
+  │   ├── filesystem.manifest
+  │   ├── filesystem.manifest-desktop
+  │   ├── filesystem.size
+  │   ├── filesystem.squashfs
+  │   ├── filesystem.squashfs.gpg
+  │   ├── initrd.lz
+  │   └── vmlinuz.efi
+  ├── dists
+  │   ├── stable -> xenial
+  │   ├── unstable -> xenial
+  │   └── xenial
+  ├── EFI
+  │   └── BOOT
+  ├── install
+  │   └── mt86plus
+  ├── isolinux
+  │   ├── ...
+  │   └── zh_TW.tr
+  ├── md5sum.txt
+  ├── pics
+  │   ├── ...
+  │   └── red-upperright.png
+  ├── pool
+  │   ├── ...
+  │   └── restricted
+  ├── preseed
+  │   ├── ...
+  │   └── ubuntu.seed
+  ├── README.diskdefines
+  └── ubuntu -> .
+```
+
+I just use `uck` to modify iso's rootfs (casper/filesystem.squashfs), and that's not enough!
+
 ### Prerequisite
 + Host Machine: Windows 7 Ultimate 64bit<p>
 + Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro<p>

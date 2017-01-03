@@ -51,7 +51,8 @@ mount --bind /dev edit/dev
 banner "Run chroot"
 wget https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/chroot.sh
 chmod 755 chroot.sh
-chroot edit /bin/bash -c "/var/tmp/livecd/chroot.sh"
+mv chroot.sh edit/
+chroot ./edit /bin/bash -c "/chroot.sh"
 
 #
 # quit from chroot

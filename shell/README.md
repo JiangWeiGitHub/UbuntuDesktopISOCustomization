@@ -18,9 +18,9 @@
 
 ### Procedure
 
-1. Enter into `~` folder
+1. Enter into `/home/wisnuc/Documents/` folder
 
-  `cd ~`
+  `cd /home/wisnuc/Documents/`
 
 2. Copy `appifi-bootstrap.js.sha1`, `appifi-bootstrap-update.packed.js`, `node-v6.9.2-linux-x64.tar.xz`, `docker-1.12.4.tgz` & `makeUbuntuWisnucISO.sh` into this folder
 

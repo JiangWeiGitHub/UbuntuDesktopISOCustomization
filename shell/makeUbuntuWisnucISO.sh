@@ -13,7 +13,7 @@ banner()
 	echo ""
 }
 
-banner "Run `makeUbuntuWisnucISO.sh`"
+banner "Run makeUbuntuWisnucISO.sh"
 
 sudo su
 apt update
@@ -29,7 +29,7 @@ banner "Mount ISO"
 ### mount iso ###
 mount -o loop,ro /home/wisnuc/Documents/ubuntu-16.04.1-desktop-amd64.iso mnt/
 
-banner "Extract `rootfs`"
+banner "Extract rootfs"
 ### extract rootfs ###
 rsync --exclude=/casper/filesystem.squashfs -a mnt/ extract-cd
 unsquashfs mnt/casper/filesystem.squashfs
@@ -37,7 +37,7 @@ unsquashfs mnt/casper/filesystem.squashfs
 mv squashfs-root edit
 umount mnt
 
-banner "Modify `rootfs`"
+banner "Modify rootfs"
 ### modify rootfs ###
 cp /etc/resolv.conf edit/etc/
 cp /etc/hosts edit/etc 
@@ -60,7 +60,7 @@ chroot edit /bin/bash -c "/var/tmp/livecd/chroot.sh"
 banner "Return from chroot"
 umount edit/dev || umount -lf edit/dev
 
-banner "Create a new `rootfs`"
+banner "Create a new rootfs"
 ### create a new rootfs ###
 chmod +w extract-cd/casper/filesystem.manifest
 chroot edit dpkg-query -W --showformat='${Package} ${Version}\n' > extract-cd/casper/filesystem.manifest

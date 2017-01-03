@@ -13,7 +13,7 @@ banner()
 	echo ""
 }
 
-banner "Enter `chroot` mode >>>>>>>>>>>>>>>"
+banner "Enter chroot mode >>>>>>>>>>>>>>>"
 
 banner "mount some paths"
 mount -t proc none /proc
@@ -52,4 +52,4 @@ umount /proc || umount -lf /proc
 umount /sys
 umount /dev/pts
 
-banner "<<<<<<<<<<<<<<<<< exit `chroot` mode"
+banner "<<<<<<<<<<<<<<<<< exit chroot mode"

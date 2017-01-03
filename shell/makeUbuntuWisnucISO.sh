@@ -15,7 +15,6 @@ banner()
 
 banner "Run makeUbuntuWisnucISO.sh"
 
-sudo su
 apt update
 apt install squashfs-tools genisoimage
 

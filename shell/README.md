@@ -22,7 +22,7 @@
 
   `cd /home/wisnuc/Documents/`
 
-2. Copy `appifi-bootstrap.js.sha1`, `appifi-bootstrap-update.packed.js`, `node-v6.9.2-linux-x64.tar.xz`, `docker-1.12.4.tgz` & `makeUbuntuWisnucISO.sh (download path: `https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/makeUbuntuWisnucISO.sh`)` into this folder
+2. Copy `appifi-bootstrap.js.sha1`, `appifi-bootstrap-update.packed.js`, `node-v6.9.2-linux-x64.tar.xz`, `docker-1.12.4.tgz` & `makeUbuntuWisnucISO.sh` (download path: `https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/makeUbuntuWisnucISO.sh`) into this folder
 
 3. Run `makeUbuntuWisnucISO.sh` with `root`
 

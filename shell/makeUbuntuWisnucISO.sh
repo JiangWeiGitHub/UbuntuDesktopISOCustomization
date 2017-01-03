@@ -66,6 +66,10 @@ chmod +w extract-cd/casper/filesystem.manifest
 chroot edit dpkg-query -W --showformat='${Package} ${Version}\n' > extract-cd/casper/filesystem.manifest
 
 cp extract-cd/casper/filesystem.manifest extract-cd/casper/filesystem.manifest-desktop
+
+### rm this file, or btrfs-tool will be removed ###
+rm extract-cd/casper/filesystem.manifest-remove
+
 sed -i '/ubiquity/d' extract-cd/casper/filesystem.manifest-desktop
 sed -i '/casper/d' extract-cd/casper/filesystem.manifest-desktop
 

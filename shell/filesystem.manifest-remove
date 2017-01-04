@@ -1,7 +1,6 @@
 a11y-profile-manager
 apt-clone
 archdetect-deb
-btrfs-tools
 casper
 cifs-utils
 cryptsetup
@@ -46,7 +45,6 @@ fonts-arphic-ukai
 fonts-arphic-uming
 gir1.2-timezonemap-1.0
 gir1.2-xkl-1.0:amd64
-gparted
 hunspell-de-at
 hunspell-de-ch
 hunspell-de-de
@@ -176,8 +174,6 @@ python3-icu
 python3-pam
 rdate
 reiserfsprogs
-samba-common
-samba-common-bin
 tegaki-zinnia-japanese
 thunderbird-locale-de
 thunderbird-locale-en

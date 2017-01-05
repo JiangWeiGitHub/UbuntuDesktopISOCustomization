@@ -17,7 +17,7 @@
   DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
 
 ### Prerequisite
-  Existed a user named `wisnuc`, and there is a foldler named `/home/wisnuc/Documents/`
+  Existed a user named `wisnuc`, and there is a folder named `/home/wisnuc/Documents/`<p>
 
 ### Procedure
 
@@ -25,7 +25,13 @@
 
   `cd /home/wisnuc/Documents/`
 
-2. Copy `appifi-bootstrap.js.sha1 (download path)[https://raw.githubusercontent.com/wisnuc/appifi-bootstrap/release/appifi-bootstrap.js.sha1]`, `appifi-bootstrap-update.packed.js (download path)[https://raw.githubusercontent.com/wisnuc/appifi-bootstrap-update/release/appifi-bootstrap-update.packed.js]`, `node-v6.9.2-linux-x64.tar.xz (download path)[https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz]`, `docker-1.12.4.tgz (download path)[https://get.docker.com/builds/Linux/x86_64/docker-1.12.4.tgz]` & `makeUbuntuWisnucISO.sh` (download path: `https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/makeUbuntuWisnucISO.sh`) into this folder
+2. Copy<p>
+  - `appifi-bootstrap.js.sha1` (download path)[https://raw.githubusercontent.com/wisnuc/appifi-bootstrap/release/appifi-bootstrap.js.sha1]<p>
+  - `appifi-bootstrap-update.packed.js` (download path)[https://raw.githubusercontent.com/wisnuc/appifi-bootstrap-update/release/appifi-bootstrap-update.packed.js]<p>
+  - `node-v6.9.2-linux-x64.tar.xz` (download path)[https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz]<p>
+  - `docker-1.12.4.tgz` (download path)[https://get.docker.com/builds/Linux/x86_64/docker-1.12.4.tgz]
+  - `makeUbuntuWisnucISO.sh` (download path: `https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/makeUbuntuWisnucISO.sh`)<p>
+  into this folder
 
 3. Run `makeUbuntuWisnucISO.sh` with `root`
 

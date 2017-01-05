@@ -42,4 +42,4 @@
     ./makeUbuntuWisnucISO.sh
   ```
   
-4. Using `UltraISO` on Windows 7, burn this ISO to USB stick
+4. ISO file will be existed under `/home/wisnuc/Documents/`, using `UltraISO` on Windows 7, burn this ISO to USB stick

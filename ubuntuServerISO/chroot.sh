@@ -33,7 +33,7 @@ export LC_ALL=C
 banner "Get my script"
 cd tmp
 
-apt update && apt install wget
+apt update && apt -y install wget
 
 wget https://raw.githubusercontent.com/JiangWeiGitHub/appifi-system/master/amd64/pc/ubuntu-16-04-1-amd64/install-appifi.sh
 chmod 755 install-appifi.sh

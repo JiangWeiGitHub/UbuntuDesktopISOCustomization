@@ -24,9 +24,9 @@ export HOME=/root
 export LC_ALL=C
 # export XAUTHORITY=/.Xauthority
 
-dbus-uuidgen > /var/lib/dbus/machine-id
-dpkg-divert --local --rename --add /sbin/initctl
-ln -s /bin/true /sbin/initctl
+# dbus-uuidgen > /var/lib/dbus/machine-id
+# dpkg-divert --local --rename --add /sbin/initctl
+# ln -s /bin/true /sbin/initctl
 
 ### run my script ###
 
@@ -43,9 +43,9 @@ banner "Run script"
 banner "clean"
 rm -rf /tmp/* ~/.bash_history
 # rm /.Xauthority 
-rm /var/lib/dbus/machine-id
-rm /sbin/initctl
-dpkg-divert --rename --remove /sbin/initctl
+# rm /var/lib/dbus/machine-id
+# rm /sbin/initctl
+# dpkg-divert --rename --remove /sbin/initctl
 
 banner "unmount"
 umount /proc || umount -lf /proc

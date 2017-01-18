@@ -49,7 +49,7 @@ mount --bind /dev edit/dev
 # enter chroot
 #
 banner "Run chroot"
-wget https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/chroot.sh
+wget https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/ubuntuServerISO/chroot.sh
 chmod 755 chroot.sh
 mv chroot.sh edit/
 chroot ./edit /bin/bash -c "/chroot.sh"

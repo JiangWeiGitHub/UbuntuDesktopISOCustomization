@@ -4,4 +4,4 @@ Because of my `DIY` **filesystem.squashfs** is newer than disk iso's, it will br
 
 The resolution method is **install these softwares you need inside filesystem.squashfs** or **install them after system installation is complete** which make the installation procedure not install them again.
 
-**SO, Do not select any software in `Software selection` interface.
+So, **do not** select any software in `Software selection` interface.

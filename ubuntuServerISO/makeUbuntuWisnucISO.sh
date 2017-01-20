@@ -60,6 +60,13 @@ chroot ./edit /bin/bash -c "/chroot.sh"
 banner "Return from chroot"
 umount edit/dev || umount -lf edit/dev
 
+#
+# add my preseed
+#
+banner "Add my preseed"
+rm extract-cd/preseed/ubuntu-server.seed
+cp /home/wisnuc/Documents/ubuntu-server.seed extract-cd/preseed/ubuntu-server.seed
+
 banner "Create a new rootfs"
 ### create a new rootfs ###
 chmod +w extract-cd/install/filesystem.manifest

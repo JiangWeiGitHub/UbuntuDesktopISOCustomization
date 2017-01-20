@@ -1,26 +1,21 @@
-# Ubuntu Desktop ISO Customization
+# Ubuntu Server ISO Customization
 
-[**Official Site 1**](https://help.ubuntu.com/community/LiveCDCustomization)
+[**Official Site**](https://help.ubuntu.com/community/InstallCDCustomization)
 
-[**Official Site 2**](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)
-
-[**Reference 1**](https://zyisrad.com/linux-livecd-customization)
-
-[**Reference 2**](https://f37ch.com/index.php/2016/05/16/ubuntu-16-04-custom-livecd-scratch/)
+[**Reference**](http://askubuntu.com/questions/409607/how-to-create-a-customized-ubuntu-server-iso)
 
 ### Prerequisite
 + Host Machine: Windows 7 Ultimate 64bit<p>
 + Develop Environment: Ubuntu 16.04.1 Desktop Amd64 running on Vmware 12 Pro<p>
-+ Ingredient: ubuntu-16.04.1-desktop-amd64.iso<p>
++ Ingredient: ubuntu-16.04.1-server-amd64.iso<p>
 + Existed a user named `wisnuc`, and there is a folder named `/home/wisnuc/Documents/`<p>
 
 ### Goal
-  DIY `ubuntu-16.04.1-desktop-amd64.iso`, add some personal stuff into iso<p>
+  DIY `ubuntu-16.04.1-server-amd64.iso`, add some personal stuff into iso<p>
 
 ### Notice
   + `chroot.sh` will be downloaded automatically by `makeUbuntuWisnucISO.sh`
-  + `filesystem.manifest-remove` will be downloaded automatically by `makeUbuntuWisnucISO.sh`, I removed `btrfs-tool` & `samba` fields
-  + `makeUbuntuWisnucISO-original.sh` does not has been used in this procedure
+  + `ref` folder includes some **caveats**
 
 ### Procedure
 
@@ -33,7 +28,7 @@
   - `appifi-bootstrap-update.packed.js` [*download path*](https://raw.githubusercontent.com/wisnuc/appifi-bootstrap-update/release/appifi-bootstrap-update.packed.js)<p>
   - `node-v6.9.2-linux-x64.tar.xz` [*download path*](https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz)<p>
   - `docker-1.12.4.tgz` [*download path*](https://get.docker.com/builds/Linux/x86_64/docker-1.12.4.tgz)<p>
-  - `makeUbuntuWisnucISO.sh` [*download path*](https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/shell/makeUbuntuWisnucISO.sh)<p>
+  - `makeUbuntuWisnucISO.sh` [*download path*](https://raw.githubusercontent.com/JiangWeiGitHub/UbuntuDesktopISOCustomization/master/ubuntuServerISO/makeUbuntuWisnucISO.sh)<p>
 
 3. Run `makeUbuntuWisnucISO.sh` with `root`
 

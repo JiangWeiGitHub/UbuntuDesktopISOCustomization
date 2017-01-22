@@ -62,6 +62,7 @@ umount edit/dev || umount -lf edit/dev
 
 #
 # add my preseed
+# Using `debconf-get-selections` from the `debconf-utils` you can investigate what parameters you can use with specific software.
 #
 banner "Edit preseed"
 echo 'tasksel tasksel/first   multiselect' >> extract-cd/preseed/ubuntu-server.seed

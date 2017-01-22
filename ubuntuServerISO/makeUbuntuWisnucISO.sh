@@ -63,9 +63,11 @@ umount edit/dev || umount -lf edit/dev
 #
 # add my preseed
 #
-banner "Add my preseed"
-rm extract-cd/preseed/*.seed
-cp /home/wisnuc/Documents/preseed/*.seed extract-cd/preseed/
+banner "Edit preseed"
+
+# d-i     tasksel/first   multiselect
+# tasksel tasksel/first   multiselect
+echo 'd-i     tasksel/first   multiselect' >> extract-cd/preseed/ubuntu-server.seed
 
 banner "Create a new rootfs"
 ### create a new rootfs ###

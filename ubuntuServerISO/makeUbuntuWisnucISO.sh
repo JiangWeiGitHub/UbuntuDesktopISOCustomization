@@ -64,10 +64,7 @@ umount edit/dev || umount -lf edit/dev
 # add my preseed
 #
 banner "Edit preseed"
-
-# d-i     tasksel/first   multiselect
-# tasksel tasksel/first   multiselect
-echo 'd-i     tasksel/first   multiselect' >> extract-cd/preseed/ubuntu-server.seed
+echo 'tasksel tasksel/first   multiselect' >> extract-cd/preseed/ubuntu-server.seed
 
 banner "Create a new rootfs"
 ### create a new rootfs ###

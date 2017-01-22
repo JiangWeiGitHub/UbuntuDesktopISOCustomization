@@ -64,8 +64,8 @@ umount edit/dev || umount -lf edit/dev
 # add my preseed
 #
 banner "Add my preseed"
-rm extract-cd/preseed/mine.seed
-cp /home/wisnuc/Documents/mine.seed extract-cd/preseed/
+rm extract-cd/preseed/*.seed
+cp /home/wisnuc/Documents/preseed/*.seed extract-cd/preseed/
 
 banner "Create a new rootfs"
 ### create a new rootfs ###

@@ -19,7 +19,7 @@
 
 ### Notice
   + `chroot.sh` will be downloaded automatically by `makeUbuntuWisnucISO.sh`
-  + `filesystem.manifest-remove` will be downloaded automatically by `makeUbuntuWisnucISO.sh`, I removed `btrfs-tool` & `samba` fields
+  + `filesystem.manifest-remove` will be downloaded automatically by `makeUbuntuWisnucISO.sh`, I removed `btrfs-tools` & `samba` fields
   + `makeUbuntuWisnucISO-original.sh` does not has been used in this procedure
 
 ### Procedure
